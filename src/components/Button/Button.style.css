@@ -1,0 +1,18 @@
+.btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--text-color);
+    border-radius: 8px;
+    box-shadow: 0 4px var(--text-color);
+    transition: transform 200ms;
+    transition: box-shadow 200ms;
+    transform: scale(1);
+}
+
+.btn:active {
+    transform: scale(0.9);
+    box-shadow: 0 2px var(--text-color);
+}
